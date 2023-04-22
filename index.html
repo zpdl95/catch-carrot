@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0"
+    />
+    <script src="src/main.js" type="module"></script>
+    <title>Fun Game</title>
+  </head>
+  <body>
+    <section class="game">
+      <header class="game__header">
+        <button class="game__button">
+          <span class="material-symbols-rounded"> play_arrow </span>
+        </button>
+
+        <div class="game__timer">0:0</div>
+
+        <div class="game__score">9</div>
+      </header>
+
+      <section class="game__field"></section>
+    </section>
+
+    <section class="pop-up pop-up--hide">
+      <div class="pop-up__box">
+        <button class="pop-up__replay">
+          <span class="material-symbols-rounded"> replay </span>
+        </button>
+
+        <span class="pop-up__message">Replay?</span>
+      </div>
+    </section>
+  </body>
+</html>
