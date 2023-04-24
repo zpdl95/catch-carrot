@@ -5,9 +5,9 @@ import PopUp from './popup.js';
 import * as sound from './sound.js';
 
 const game = new GameBuilder()
-  .withGameDurationSec(3)
-  .withCarrotCount(3)
-  .withBugCount(3)
+  .withGameDurationSec(15)
+  .withCarrotCount(15)
+  .withBugCount(15)
   .build();
 
 const gameFinishBanner = new PopUp();
